@@ -1,0 +1,6 @@
+framework module Pods_GrifolsLoginFrameworkTests {
+  umbrella header "Pods-GrifolsLoginFrameworkTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

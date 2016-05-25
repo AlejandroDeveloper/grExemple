@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B778BB1F3076332F5338DD /* Pods_GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC4731FB9E628FDC7B5EF7 /* Pods_GrifolsLoginFramework.framework */; };
 		A96DF0301CF358E000E73D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DF02F1CF358E000E73D9E /* AppDelegate.swift */; };
 		A96DF0351CF358E000E73D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0331CF358E000E73D9E /* Main.storyboard */; };
 		A96DF0371CF358E000E73D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0361CF358E000E73D9E /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 		A9E1EC7E1CF5B7DA00045938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0361CF358E000E73D9E /* Assets.xcassets */; };
 		A9E47B581CF43F0A0025B28D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginView.swift */; };
 		A9E47B591CF43F0A0025B28D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginView.swift */; };
+		B86DE0503EFAA642EE05EE7E /* Pods_GrifolsLoginFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79636771BCB3A4CD32981782 /* Pods_GrifolsLoginFrameworkTests.framework */; };
+		E6CA7C76525AF33767650F52 /* Pods_GrifolsLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5351ACA4D90502B302C0BB /* Pods_GrifolsLogin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		34CF5D48C67EFC67CCEB66EF /* Pods-GrifolsLoginFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLoginFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLoginFrameworkTests/Pods-GrifolsLoginFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79636771BCB3A4CD32981782 /* Pods_GrifolsLoginFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrifolsLoginFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECC4731FB9E628FDC7B5EF7 /* Pods_GrifolsLoginFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrifolsLoginFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5351ACA4D90502B302C0BB /* Pods_GrifolsLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrifolsLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96DF02C1CF358E000E73D9E /* GrifolsLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrifolsLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96DF02F1CF358E000E73D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96DF0341CF358E000E73D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +97,11 @@
 		A9E1EC6B1CF5A6A500045938 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		A9E1EC741CF5AAD200045938 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		A9E47B571CF43F0A0025B28D /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AE2E804C68B994D1A39BA046 /* Pods-GrifolsLoginFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLoginFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLoginFramework/Pods-GrifolsLoginFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		B81612E47710FFE1206E5BFC /* Pods-GrifolsLoginFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLoginFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLoginFramework/Pods-GrifolsLoginFramework.release.xcconfig"; sourceTree = "<group>"; };
+		BDBEE138B85686DD3906F98F /* Pods-GrifolsLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLogin/Pods-GrifolsLogin.release.xcconfig"; sourceTree = "<group>"; };
+		C62812B4CBC218EBDB14AB49 /* Pods-GrifolsLoginFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLoginFrameworkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLoginFrameworkTests/Pods-GrifolsLoginFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		E3054A9E02885853CF6CE7DB /* Pods-GrifolsLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLogin/Pods-GrifolsLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96DF0671CF3590900E73D9E /* GrifolsLoginFramework.framework in Frameworks */,
+				E6CA7C76525AF33767650F52 /* Pods_GrifolsLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B778BB1F3076332F5338DD /* Pods_GrifolsLoginFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,12 +134,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96DF05C1CF3590900E73D9E /* GrifolsLoginFramework.framework in Frameworks */,
+				B86DE0503EFAA642EE05EE7E /* Pods_GrifolsLoginFrameworkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DBA3EC9033D5BCE9ECD56F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F5351ACA4D90502B302C0BB /* Pods_GrifolsLogin.framework */,
+				7ECC4731FB9E628FDC7B5EF7 /* Pods_GrifolsLoginFramework.framework */,
+				79636771BCB3A4CD32981782 /* Pods_GrifolsLoginFrameworkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		971726D1B405CAD112EFACAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3054A9E02885853CF6CE7DB /* Pods-GrifolsLogin.debug.xcconfig */,
+				BDBEE138B85686DD3906F98F /* Pods-GrifolsLogin.release.xcconfig */,
+				AE2E804C68B994D1A39BA046 /* Pods-GrifolsLoginFramework.debug.xcconfig */,
+				B81612E47710FFE1206E5BFC /* Pods-GrifolsLoginFramework.release.xcconfig */,
+				34CF5D48C67EFC67CCEB66EF /* Pods-GrifolsLoginFrameworkTests.debug.xcconfig */,
+				C62812B4CBC218EBDB14AB49 /* Pods-GrifolsLoginFrameworkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A96DF0211CF3587400E73D9E = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +174,8 @@
 				A96DF0531CF3590800E73D9E /* GrifolsLoginFramework */,
 				A96DF0611CF3590900E73D9E /* GrifolsLoginFrameworkTests */,
 				A96DF02D1CF358E000E73D9E /* Products */,
+				971726D1B405CAD112EFACAE /* Pods */,
+				5DBA3EC9033D5BCE9ECD56F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -224,10 +264,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A96DF0471CF358E000E73D9E /* Build configuration list for PBXNativeTarget "GrifolsLogin" */;
 			buildPhases = (
+				ABA7B4EBE9AD7E927F2C3C0D /* 📦 Check Pods Manifest.lock */,
 				A96DF0281CF358E000E73D9E /* Sources */,
 				A96DF0291CF358E000E73D9E /* Frameworks */,
 				A96DF02A1CF358E000E73D9E /* Resources */,
 				A96DF06C1CF3590900E73D9E /* Embed Frameworks */,
+				A0033D6F82A49044C76CE3D8 /* 📦 Embed Pods Frameworks */,
+				F0CEC4874A0DE5AC8B49115F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,10 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A96DF0691CF3590900E73D9E /* Build configuration list for PBXNativeTarget "GrifolsLoginFramework" */;
 			buildPhases = (
+				836DD434EE8A50B17FA334B0 /* 📦 Check Pods Manifest.lock */,
 				A96DF04D1CF3590800E73D9E /* Sources */,
 				A96DF04E1CF3590800E73D9E /* Frameworks */,
 				A96DF04F1CF3590800E73D9E /* Headers */,
 				A96DF0501CF3590800E73D9E /* Resources */,
+				B47DBEB9BF3AD0C0C259AC33 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,9 +324,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A96DF06D1CF3590900E73D9E /* Build configuration list for PBXNativeTarget "GrifolsLoginFrameworkTests" */;
 			buildPhases = (
+				7A24EDCB0C0E6D6DA92C8A3E /* 📦 Check Pods Manifest.lock */,
 				A96DF0571CF3590900E73D9E /* Sources */,
 				A96DF0581CF3590900E73D9E /* Frameworks */,
 				A96DF0591CF3590900E73D9E /* Resources */,
+				D4D0C47D220B3CA6E9DB6A92 /* 📦 Embed Pods Frameworks */,
+				268C6FB858F43C509D31E237 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -376,6 +424,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268C6FB858F43C509D31E237 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrifolsLoginFrameworkTests/Pods-GrifolsLoginFrameworkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A24EDCB0C0E6D6DA92C8A3E /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		836DD434EE8A50B17FA334B0 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0033D6F82A49044C76CE3D8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrifolsLogin/Pods-GrifolsLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA7B4EBE9AD7E927F2C3C0D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B47DBEB9BF3AD0C0C259AC33 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrifolsLoginFramework/Pods-GrifolsLoginFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4D0C47D220B3CA6E9DB6A92 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrifolsLoginFrameworkTests/Pods-GrifolsLoginFrameworkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0CEC4874A0DE5AC8B49115F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrifolsLogin/Pods-GrifolsLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A96DF0281CF358E000E73D9E /* Sources */ = {
@@ -474,6 +645,7 @@
 		};
 		A96DF0481CF358E000E73D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3054A9E02885853CF6CE7DB /* Pods-GrifolsLogin.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -526,6 +698,7 @@
 		};
 		A96DF0491CF358E000E73D9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBEE138B85686DD3906F98F /* Pods-GrifolsLogin.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -665,6 +838,7 @@
 		};
 		A96DF06A1CF3590900E73D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2E804C68B994D1A39BA046 /* Pods-GrifolsLoginFramework.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -724,6 +898,7 @@
 		};
 		A96DF06B1CF3590900E73D9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81612E47710FFE1206E5BFC /* Pods-GrifolsLoginFramework.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -776,6 +951,7 @@
 		};
 		A96DF06E1CF3590900E73D9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CF5D48C67EFC67CCEB66EF /* Pods-GrifolsLoginFrameworkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -826,6 +1002,7 @@
 		};
 		A96DF06F1CF3590900E73D9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C62812B4CBC218EBDB14AB49 /* Pods-GrifolsLoginFrameworkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
