@@ -14,9 +14,9 @@ protocol LoginProtocol {
 
 @IBDesignable public class LoginViewController: UIViewController {
 
-    @IBOutlet weak private var txtUser: UITextField!
-    @IBOutlet weak private var txtPassword: UITextField!
-    @IBOutlet weak private var btnLogin: UIButton!
+    @IBOutlet weak public var txtUser: UITextField!
+    @IBOutlet weak public var txtPassword: UITextField!
+    @IBOutlet weak public var btnLogin: UIButton!
     
     override public func viewDidLoad() {
         super.viewDidLoad()
