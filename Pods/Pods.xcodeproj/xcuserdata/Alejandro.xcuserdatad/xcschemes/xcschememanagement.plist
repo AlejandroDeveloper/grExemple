@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire.xcscheme</key>
+		<key>Alamofire-iOS9.0.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
-			<false/>
+			<true/>
+		</dict>
+		<key>Alamofire-iOS9.3.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 		</dict>
 		<key>Pods-GrifolsLogin.xcscheme</key>
 		<dict>
@@ -27,17 +32,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>284D54EEDCB51A5F01C2985075B19CE8</key>
+		<key>397EECA61A08226311FC5DAA05D96374</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3EEADB6E780F8CE0D27C43BDA8D25F28</key>
+		<key>433DC48143C8B5424A878201AB60B0E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<key>AB6EDE7B5EF5CA3C02D4A9FEE8B02D38</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EBFA75A78E8D4A64440B01BF43500AEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

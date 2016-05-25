@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AB6EDE7B5EF5CA3C02D4A9FEE8B02D38"
-               BuildableName = "Pods_GrifolsLoginFramework.framework"
-               BlueprintName = "Pods-GrifolsLoginFramework"
+               BlueprintIdentifier = "433DC48143C8B5424A878201AB60B0E2"
+               BuildableName = "Alamofire.framework"
+               BlueprintName = "Alamofire-iOS9.0"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AB6EDE7B5EF5CA3C02D4A9FEE8B02D38"
-            BuildableName = "Pods_GrifolsLoginFramework.framework"
-            BlueprintName = "Pods-GrifolsLoginFramework"
+            BlueprintIdentifier = "433DC48143C8B5424A878201AB60B0E2"
+            BuildableName = "Alamofire.framework"
+            BlueprintName = "Alamofire-iOS9.0"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
