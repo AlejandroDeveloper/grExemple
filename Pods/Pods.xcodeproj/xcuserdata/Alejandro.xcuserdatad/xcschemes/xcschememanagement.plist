@@ -4,20 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire-iOS9.0.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
-		<key>Alamofire-iOS9.3.xcscheme_^#shared#^_</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
-		<key>Alamofire.xcscheme</key>
+		<key>Alamofire-iOS9.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+		</dict>
+		<key>Alamofire-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Alamofire.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
 		</dict>
 		<key>ObjectMapper.xcscheme_^#shared#^_</key>
 		<dict>
