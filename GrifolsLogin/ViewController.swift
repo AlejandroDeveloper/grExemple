@@ -9,11 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var loginComponent: LoginView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        loginComponent.configureView()
     }
 
     override func didReceiveMemoryWarning() {

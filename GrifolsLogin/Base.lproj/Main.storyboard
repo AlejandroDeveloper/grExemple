@@ -17,6 +17,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GRIFOLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pq-EJ-17f">
+                                <rect key="frame" x="59" y="52" width="483" height="110"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="109"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBd-NF-Aob">
+                                <rect key="frame" x="177" y="427" width="246" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="FIB-6f-6Fv"/>
+                                    <constraint firstAttribute="width" constant="246" id="z7c-Db-VB8"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Login"/>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQf-Y0-soc">
                                 <rect key="frame" x="177" y="207" width="246" height="185"/>
                                 <subviews>
@@ -78,21 +93,6 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GRIFOLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3pq-EJ-17f">
-                                <rect key="frame" x="59" y="52" width="483" height="110"/>
-                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="109"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBd-NF-Aob">
-                                <rect key="frame" x="177" y="427" width="246" height="51"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="FIB-6f-6Fv"/>
-                                    <constraint firstAttribute="width" constant="246" id="z7c-Db-VB8"/>
-                                </constraints>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Login"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.031372549019607843" green="0.23137254901960785" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -131,12 +131,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="uJp-sN-I19" secondAttribute="trailing" constant="-20" id="SYL-VR-eZ1"/>
-                            <constraint firstItem="uJp-sN-I19" firstAttribute="leading" secondItem="TxW-zj-whs" secondAttribute="leadingMargin" constant="-20" id="aBr-fz-1nL"/>
+                            <constraint firstAttribute="trailing" secondItem="uJp-sN-I19" secondAttribute="trailing" id="SYL-VR-eZ1"/>
+                            <constraint firstItem="uJp-sN-I19" firstAttribute="leading" secondItem="TxW-zj-whs" secondAttribute="leading" id="aBr-fz-1nL"/>
                             <constraint firstItem="uJp-sN-I19" firstAttribute="top" secondItem="TxW-zj-whs" secondAttribute="topMargin" id="knM-RK-gGL"/>
                             <constraint firstItem="fqE-VY-bpx" firstAttribute="top" secondItem="uJp-sN-I19" secondAttribute="bottom" id="sDz-9I-jkD"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginComponent" destination="uJp-sN-I19" id="gZ8-O6-V5a"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyA-Oz-0SK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

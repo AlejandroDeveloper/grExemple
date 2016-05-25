@@ -14,11 +14,11 @@ import UIKit
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var btnLogin: UIButton!
     
+    
     public override func awakeFromNib() {
-        print("Entra en el video view component")
+        print("Login component")
         super.awakeFromNib()
         xibSetup()
-        configureView()
     }
     
     var view: UIView!
@@ -44,7 +44,7 @@ import UIKit
     }
 
     
-    private func configureView() {
+    public func configureView() {
         let borderUser = CALayer()
         let borderPass = CALayer()
         let width = CGFloat(1.0)

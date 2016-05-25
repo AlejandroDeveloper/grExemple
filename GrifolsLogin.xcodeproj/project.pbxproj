@@ -21,6 +21,7 @@
 		A9E1EC6D1CF5A6A500045938 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1EC6B1CF5A6A500045938 /* LoginView.xib */; };
 		A9E1EC751CF5AAD200045938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1EC741CF5AAD200045938 /* ViewController.swift */; };
 		A9E1EC761CF5AAD200045938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1EC741CF5AAD200045938 /* ViewController.swift */; };
+		A9E1EC7E1CF5B7DA00045938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0361CF358E000E73D9E /* Assets.xcassets */; };
 		A9E47B581CF43F0A0025B28D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginView.swift */; };
 		A9E47B591CF43F0A0025B28D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginView.swift */; };
 /* End PBXBuildFile section */
@@ -362,6 +363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9E1EC7E1CF5B7DA00045938 /* Assets.xcassets in Resources */,
 				A9E1EC6D1CF5A6A500045938 /* LoginView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
