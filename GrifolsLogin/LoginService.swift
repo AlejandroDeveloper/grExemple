@@ -120,7 +120,6 @@ class LoginService {
                 let parameters = ["serviceId" : self.serviceId,
                                   "userName" : username,
                                   "password" : password]
-            
                 return (url, parameters as! [String : AnyObject])
         }()
         
