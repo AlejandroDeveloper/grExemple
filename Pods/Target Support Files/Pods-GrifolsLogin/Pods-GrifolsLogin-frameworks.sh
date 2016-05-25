@@ -85,7 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS9.0/Alamofire.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ObjectMapper-iOS9.0/ObjectMapper.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Realm-iOS9.0/Realm.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RealmSwift-iOS9.0/RealmSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire-iOS9.0/Alamofire.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/ObjectMapper-iOS9.0/ObjectMapper.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Realm-iOS9.0/Realm.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RealmSwift-iOS9.0/RealmSwift.framework"
 fi

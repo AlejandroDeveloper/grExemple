@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import UIKit
+import ObjectMapper
 
 enum GRStatusCode: String {
     case GRStatusCodeNoError = "0"
@@ -111,7 +112,7 @@ class LoginService {
     }
     
     //MARK:-SIGN IN
-    func signInWithUser(username:String,password:String) {
+    func signInWithUser(user username:String,password:String) {
         print("Entra a logear")
         let serviceValues : (URL: String, parameters: [String:AnyObject]) = {
                 let url = "\(grHost)/login-service-portlet/api/jsonws/useraccess/username-sign-in"
@@ -139,18 +140,21 @@ class LoginService {
 //                    return
 //                }
                 
-//               // Check User structure
-//                guard let responseJSON = response.result.value as? [String: AnyObject],
-//                    let userJSON = responseJSON["user"] as? [String: AnyObject] else {
-//                        failure(checkResponse.statusCode, "'user' key not found in response:\n\(response.result.value ?? "")")
-//                        return
-//                }
+               // Check User structure
+                guard let responseJSON = response.result.value as? [String: AnyObject],
+                    let userJSON = responseJSON["user"] as? [String: AnyObject] else {
+                        //failure(checkResponse.statusCode, "'user' key not found in response:\n\(response.result.value ?? "")")
+                        return
+                }
                 
-//                // Parse userJSON to User Object and check
-//                guard let user = Mapper<User>().map(userJSON) else {
-//                    failure (checkResponse.statusCode, "Error mapping userJSON to User Object")
-//                    return
-//                }
+                // Parse userJSON to User Object and check
+                guard let user = Mapper<User>().map(userJSON) else {
+                    print("Error en el mapeo")
+                    //failure (checkResponse.statusCode, "Error mapping userJSON to User Object")
+                    return
+                }
+                
+                print(user)
 
         }
         

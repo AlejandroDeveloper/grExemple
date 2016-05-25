@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire-iOS9.0.xcscheme_^#shared#^_</key>
+		<key>Alamofire-iOS9.0.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
 		</dict>
-		<key>Alamofire-iOS9.3.xcscheme_^#shared#^_</key>
+		<key>Alamofire-iOS9.3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
-			<true/>
+			<false/>
+		</dict>
+		<key>ObjectMapper-iOS9.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>Pods-GrifolsLogin.xcscheme</key>
 		<dict>
@@ -29,20 +39,70 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Realm-iOS9.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Realm-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift-iOS9.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RealmSwift-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>397EECA61A08226311FC5DAA05D96374</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>433DC48143C8B5424A878201AB60B0E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AB6EDE7B5EF5CA3C02D4A9FEE8B02D38</key>
+		<key>546371FBBB2124F8A2627A441DCDDA68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EED3734F8BC82006EC850F570C065FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B4ED90A8F27B748D505FC87B3427906</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>867DC6B41B861EE23A5236535208179F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DA55F273FC7FAA1F452FA2257D1B74A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A1178F90DA095698FB768A894AD32E08</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A389482FCD48D2DD4427E34374A00ED6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E611C340FF8A0FB714E3D68B4BB3F774</key>
 		<dict>
 			<key>primary</key>
 			<true/>
