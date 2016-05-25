@@ -8,30 +8,41 @@
 
 import UIKit
 
-protocol LoginProtocol {
-    func getCredentials(user:String,Password:String)
-}
+@IBDesignable public class LoginView: UIView {
 
-@IBDesignable public class LoginViewController: UIViewController {
-
-    @IBOutlet weak public var txtUser: UITextField!
-    @IBOutlet weak public var txtPassword: UITextField!
-    @IBOutlet weak public var btnLogin: UIButton!
+    @IBOutlet weak var txtUser: UITextField!
+    @IBOutlet weak var txtPassword: UITextField!
+    @IBOutlet weak var btnLogin: UIButton!
     
-    override public func viewDidLoad() {
-        super.viewDidLoad()
-        print("Alejandro")
-       
+    public override func awakeFromNib() {
+        print("Entra en el video view component")
+        super.awakeFromNib()
+        xibSetup()
+        configureView()
     }
     
-    override public func viewDidAppear(animated: Bool) {
-         configureView()
+    var view: UIView!
+    func xibSetup(){
+        view = loadViewFromNib()
+        
+        // use bounds not frame or it'll be offset
+        view.frame = bounds
+        
+        // Make the view stretch with containing view
+        view.autoresizingMask = [UIViewAutoresizing.FlexibleWidth, UIViewAutoresizing.FlexibleHeight]
+        // Adding custom subview on top of our view (over any custom drawing > see note below)
+        addSubview(view)
+    }
+    
+    func loadViewFromNib() -> UIView {
+        
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let nib = UINib(nibName: "LoginView", bundle: bundle)
+        let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
+        
+        return view
     }
 
-    override public func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
     private func configureView() {
         let borderUser = CALayer()

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aht-UK-Xy6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -92,33 +92,55 @@
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Login"/>
-                                <connections>
-                                    <action selector="sendLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5yY-RU-2Mz"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.031372549019607843" green="0.23137254901960785" blue="0.45490196078431372" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="NQf-Y0-soc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="157" id="GTU-ZT-2d8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="NQf-Y0-soc" secondAttribute="bottom" constant="208" id="Nt8-MW-j7z"/>
                             <constraint firstItem="HBd-NF-Aob" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QEa-Jm-1WO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="NQf-Y0-soc" secondAttribute="trailing" constant="157" id="T2p-Ek-Jas"/>
                             <constraint firstItem="HBd-NF-Aob" firstAttribute="top" secondItem="NQf-Y0-soc" secondAttribute="bottom" constant="35" id="Xve-kB-PpQ"/>
-                            <constraint firstItem="3pq-EJ-17f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="YOd-67-mUZ"/>
+                            <constraint firstItem="3pq-EJ-17f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="Ywv-Ll-Chz"/>
                             <constraint firstItem="3pq-EJ-17f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="39" id="ePC-XY-6cI"/>
                             <constraint firstItem="NQf-Y0-soc" firstAttribute="top" secondItem="3pq-EJ-17f" secondAttribute="bottom" constant="45" id="f2j-Za-OrM"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="NQf-Y0-soc" secondAttribute="bottom" constant="208" id="mfh-Of-lZk"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3pq-EJ-17f" secondAttribute="trailing" constant="38" id="oQ4-iI-RWw"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="btnLogin" destination="HBd-NF-Aob" id="fUv-s0-5Ww"/>
-                        <outlet property="txtPassword" destination="Wfg-hj-Xcg" id="0mf-hf-7Lj"/>
-                        <outlet property="txtUser" destination="GPb-lN-ST2" id="xFu-g6-DNW"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="359" y="379"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sca-yJ-c7V">
+            <objects>
+                <viewController id="aht-UK-Xy6" customClass="ViewController" customModule="GrifolsLogin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gwo-Bk-yOc"/>
+                        <viewControllerLayoutGuide type="bottom" id="fqE-VY-bpx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TxW-zj-whs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uJp-sN-I19" customClass="LoginView" customModule="GrifolsLogin" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="uJp-sN-I19" secondAttribute="trailing" constant="-20" id="SYL-VR-eZ1"/>
+                            <constraint firstItem="uJp-sN-I19" firstAttribute="leading" secondItem="TxW-zj-whs" secondAttribute="leadingMargin" constant="-20" id="aBr-fz-1nL"/>
+                            <constraint firstItem="uJp-sN-I19" firstAttribute="top" secondItem="TxW-zj-whs" secondAttribute="topMargin" id="knM-RK-gGL"/>
+                            <constraint firstItem="fqE-VY-bpx" firstAttribute="top" secondItem="uJp-sN-I19" secondAttribute="bottom" id="sDz-9I-jkD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tyA-Oz-0SK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1172" y="379"/>
         </scene>
     </scenes>
     <resources>
