@@ -20,6 +20,7 @@ protocol LoginProtocol {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
+        print("Alejandro")
        
     }
     
