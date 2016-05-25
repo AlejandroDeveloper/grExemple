@@ -112,8 +112,9 @@ class LoginService {
     }
     
     //MARK:-SIGN IN
-    func signInWithUser(user username:String,password:String) {
+    func signInWithUser(user username:String,password:String,completion:(Void -> Void), failure:((Int, String) -> Void)) -> Void {
         print("Entra a logear")
+        
         let serviceValues : (URL: String, parameters: [String:AnyObject]) = {
                 let url = "\(grHost)/login-service-portlet/api/jsonws/useraccess/username-sign-in"
                 let parameters = ["serviceId" : self.serviceId,
@@ -134,26 +135,27 @@ class LoginService {
                 // print response
                 print("\(response)")
                 
-//                let checkResponse = self.checkCommonResponse(response)
-//                guard checkResponse.succeded else {
-//                    failure(checkResponse.statusCode, checkResponse.errorDescription)
-//                    return
-//                }
+                let checkResponse = self.checkCommonResponse(response)
+                guard checkResponse.succeded else {
+                    failure(checkResponse.statusCode, checkResponse.errorDescription)
+                    return
+                }
                 
                // Check User structure
                 guard let responseJSON = response.result.value as? [String: AnyObject],
                     let userJSON = responseJSON["user"] as? [String: AnyObject] else {
-                        //failure(checkResponse.statusCode, "'user' key not found in response:\n\(response.result.value ?? "")")
+                        failure(checkResponse.statusCode, "'user' key not found in response:\n\(response.result.value ?? "")")
                         return
                 }
                 
                 // Parse userJSON to User Object and check
                 guard let user = Mapper<User>().map(userJSON) else {
                     print("Error en el mapeo")
-                    //failure (checkResponse.statusCode, "Error mapping userJSON to User Object")
+                    failure (checkResponse.statusCode, "Error mapping userJSON to User Object")
                     return
                 }
                 
+                completion()
                 print(user)
 
         }

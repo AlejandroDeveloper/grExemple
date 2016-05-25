@@ -80,7 +80,11 @@ import UIKit
     //MARK:-Send Login
     
     @IBAction func sendLogin(sender: UIButton) {
-        LoginService.sharedInstance.signInWithUser(user: txtUser.text!, password: txtPassword.text!)
+        LoginService.sharedInstance.signInWithUser(user: txtUser.text!, password: txtPassword.text!, completion: { () in
+                print("Se ha completado")
+            }) { (codeError, descriptionError) in
+                print(codeError,descriptionError)
+        }
     }
 
 }

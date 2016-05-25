@@ -4,22 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Alamofire-iOS9.0.xcscheme</key>
+		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Alamofire-iOS9.3.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ObjectMapper-iOS9.0.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ObjectMapper-iOS9.3.xcscheme</key>
+		<key>ObjectMapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -39,22 +29,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Realm-iOS9.0.xcscheme</key>
+		<key>Realm.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Realm-iOS9.3.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RealmSwift-iOS9.0.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>RealmSwift-iOS9.3.xcscheme</key>
+		<key>RealmSwift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -62,52 +42,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>433DC48143C8B5424A878201AB60B0E2</key>
+		<key>14F45639D10AC73D3F3E693C9138EB83</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>546371FBBB2124F8A2627A441DCDDA68</key>
+		<key>6AC114BCE6CB0F028F1E6BB498AC57E6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6EED3734F8BC82006EC850F570C065FE</key>
+		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B4ED90A8F27B748D505FC87B3427906</key>
+		<key>86483063F1730D8E7CCA56E3746ADAAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>867DC6B41B861EE23A5236535208179F</key>
+		<key>D5D6200D4BE741574DBD4FB768A6F55B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DA55F273FC7FAA1F452FA2257D1B74A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A1178F90DA095698FB768A894AD32E08</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A389482FCD48D2DD4427E34374A00ED6</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E611C340FF8A0FB714E3D68B4BB3F774</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EBFA75A78E8D4A64440B01BF43500AEF</key>
+		<key>ECE18F34DBB642DDCEC8012692DC1CB3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
