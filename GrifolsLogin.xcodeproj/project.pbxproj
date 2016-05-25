@@ -23,6 +23,8 @@
 		A9E1EC751CF5AAD200045938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1EC741CF5AAD200045938 /* ViewController.swift */; };
 		A9E1EC761CF5AAD200045938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1EC741CF5AAD200045938 /* ViewController.swift */; };
 		A9E1EC7E1CF5B7DA00045938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0361CF358E000E73D9E /* Assets.xcassets */; };
+		A9E1EC801CF5BCC800045938 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1EC7F1CF5BCC800045938 /* LoginService.swift */; };
+		A9E1EC811CF5BCC800045938 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E1EC7F1CF5BCC800045938 /* LoginService.swift */; };
 		A9E47B581CF43F0A0025B28D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginView.swift */; };
 		A9E47B591CF43F0A0025B28D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E47B571CF43F0A0025B28D /* LoginView.swift */; };
 		B86DE0503EFAA642EE05EE7E /* Pods_GrifolsLoginFrameworkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79636771BCB3A4CD32981782 /* Pods_GrifolsLoginFrameworkTests.framework */; };
@@ -96,6 +98,7 @@
 		A96DF0641CF3590900E73D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E1EC6B1CF5A6A500045938 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
 		A9E1EC741CF5AAD200045938 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		A9E1EC7F1CF5BCC800045938 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		A9E47B571CF43F0A0025B28D /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AE2E804C68B994D1A39BA046 /* Pods-GrifolsLoginFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLoginFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLoginFramework/Pods-GrifolsLoginFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		B81612E47710FFE1206E5BFC /* Pods-GrifolsLoginFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrifolsLoginFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrifolsLoginFramework/Pods-GrifolsLoginFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -194,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				A96DF02F1CF358E000E73D9E /* AppDelegate.swift */,
+				A9E1EC7F1CF5BCC800045938 /* LoginService.swift */,
 				A96DF0711CF359AB00E73D9E /* Views */,
 				A96DF0701CF359A100E73D9E /* Sources */,
 				A96DF0361CF358E000E73D9E /* Assets.xcassets */,
@@ -556,6 +560,7 @@
 				A9E1EC751CF5AAD200045938 /* ViewController.swift in Sources */,
 				A9E47B581CF43F0A0025B28D /* LoginView.swift in Sources */,
 				A96DF0301CF358E000E73D9E /* AppDelegate.swift in Sources */,
+				A9E1EC801CF5BCC800045938 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9E1EC761CF5AAD200045938 /* ViewController.swift in Sources */,
+				A9E1EC811CF5BCC800045938 /* LoginService.swift in Sources */,
 				A9E47B591CF43F0A0025B28D /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

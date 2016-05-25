@@ -5,7 +5,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="GrifolsLogin" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginView" customModule="GrifolsLogin" customModuleProvider="target">
             <connections>
                 <outlet property="btnLogin" destination="GiI-xa-W6j" id="GML-gP-SAZ"/>
                 <outlet property="txtPassword" destination="n6i-9G-pbt" id="AbL-4k-jfG"/>
@@ -96,6 +96,9 @@
                             </constraints>
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <state key="normal" title="Login"/>
+                            <connections>
+                                <action selector="sendLogin:" destination="-1" eventType="touchUpInside" id="YCk-0h-6Ev"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" red="0.031372549020000001" green="0.23137254900000001" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>

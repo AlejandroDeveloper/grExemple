@@ -80,7 +80,7 @@ import UIKit
     //MARK:-Send Login
     
     @IBAction func sendLogin(sender: UIButton) {
-        
+        LoginService.sharedInstance.signInWithUser("bcbwr", password: "Alexander7")
     }
 
 }
