@@ -154,10 +154,9 @@ class LoginService {
                     failure (checkResponse.statusCode, "Error mapping userJSON to User Object")
                     return
                 }
-                
+                // Save user to db
+                UserController.sharedInstance.saveUser(user)
                 completion()
-                print(user)
-
         }
         
     }
