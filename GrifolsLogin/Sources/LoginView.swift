@@ -81,7 +81,7 @@ import UIKit
     
     @IBAction func sendLogin(sender: UIButton) {
         LoginService.sharedInstance.signInWithUser(user: txtUser.text!, password: txtPassword.text!, completion: { () in
-                print("Se ha completado")
+                print("Se ha completado:\(UserController.sharedInstance.loggedUser())")
             }) { (codeError, descriptionError) in
                 print(codeError,descriptionError)
         }

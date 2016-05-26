@@ -16,7 +16,6 @@
 		A96DF0551CF3590900E73D9E /* GrifolsLoginFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A96DF0541CF3590900E73D9E /* GrifolsLoginFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A96DF05C1CF3590900E73D9E /* GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96DF0521CF3590800E73D9E /* GrifolsLoginFramework.framework */; };
 		A96DF0631CF3590900E73D9E /* GrifolsLoginFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DF0621CF3590900E73D9E /* GrifolsLoginFrameworkTests.swift */; };
-		A96DF0671CF3590900E73D9E /* GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A96DF0521CF3590800E73D9E /* GrifolsLoginFramework.framework */; };
 		A96DF0681CF3590900E73D9E /* GrifolsLoginFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A96DF0521CF3590800E73D9E /* GrifolsLoginFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A9E1EC6C1CF5A6A500045938 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1EC6B1CF5A6A500045938 /* LoginView.xib */; };
 		A9E1EC6D1CF5A6A500045938 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9E1EC6B1CF5A6A500045938 /* LoginView.xib */; };
@@ -38,33 +37,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A96DF0411CF358E000E73D9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A96DF02B1CF358E000E73D9E;
-			remoteInfo = GrifolsLogin;
-		};
-		A96DF05D1CF3590900E73D9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A96DF0511CF3590800E73D9E;
-			remoteInfo = GrifolsLoginFramework;
-		};
-		A96DF05F1CF3590900E73D9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A96DF02B1CF358E000E73D9E;
-			remoteInfo = GrifolsLogin;
-		};
 		A96DF0651CF3590900E73D9E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A96DF0511CF3590800E73D9E;
 			remoteInfo = GrifolsLoginFramework;
+		};
+		A9E75F3D1CF7308000437482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96DF02B1CF358E000E73D9E;
+			remoteInfo = GrifolsLogin;
+		};
+		A9E75F3F1CF7308000437482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96DF0511CF3590800E73D9E;
+			remoteInfo = GrifolsLoginFramework;
+		};
+		A9E75F411CF7308600437482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A96DF0221CF3587400E73D9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A96DF02B1CF358E000E73D9E;
+			remoteInfo = GrifolsLogin;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -121,7 +120,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A96DF0671CF3590900E73D9E /* GrifolsLoginFramework.framework in Frameworks */,
 				E6CA7C76525AF33767650F52 /* Pods_GrifolsLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,7 +347,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A96DF0421CF358E000E73D9E /* PBXTargetDependency */,
+				A9E75F421CF7308600437482 /* PBXTargetDependency */,
 			);
 			name = GrifolsLoginTests;
 			productName = GrifolsLoginTests;
@@ -390,8 +388,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				A96DF05E1CF3590900E73D9E /* PBXTargetDependency */,
-				A96DF0601CF3590900E73D9E /* PBXTargetDependency */,
+				A9E75F3E1CF7308000437482 /* PBXTargetDependency */,
+				A9E75F401CF7308000437482 /* PBXTargetDependency */,
 			);
 			name = GrifolsLoginFrameworkTests;
 			productName = GrifolsLoginFrameworkTests;
@@ -651,25 +649,25 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A96DF0421CF358E000E73D9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A96DF02B1CF358E000E73D9E /* GrifolsLogin */;
-			targetProxy = A96DF0411CF358E000E73D9E /* PBXContainerItemProxy */;
-		};
-		A96DF05E1CF3590900E73D9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A96DF0511CF3590800E73D9E /* GrifolsLoginFramework */;
-			targetProxy = A96DF05D1CF3590900E73D9E /* PBXContainerItemProxy */;
-		};
-		A96DF0601CF3590900E73D9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A96DF02B1CF358E000E73D9E /* GrifolsLogin */;
-			targetProxy = A96DF05F1CF3590900E73D9E /* PBXContainerItemProxy */;
-		};
 		A96DF0661CF3590900E73D9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A96DF0511CF3590800E73D9E /* GrifolsLoginFramework */;
 			targetProxy = A96DF0651CF3590900E73D9E /* PBXContainerItemProxy */;
+		};
+		A9E75F3E1CF7308000437482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96DF02B1CF358E000E73D9E /* GrifolsLogin */;
+			targetProxy = A9E75F3D1CF7308000437482 /* PBXContainerItemProxy */;
+		};
+		A9E75F401CF7308000437482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96DF0511CF3590800E73D9E /* GrifolsLoginFramework */;
+			targetProxy = A9E75F3F1CF7308000437482 /* PBXContainerItemProxy */;
+		};
+		A9E75F421CF7308600437482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A96DF02B1CF358E000E73D9E /* GrifolsLogin */;
+			targetProxy = A9E75F411CF7308600437482 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

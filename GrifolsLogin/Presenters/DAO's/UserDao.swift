@@ -24,7 +24,7 @@ class UserDao {
      
      - returns: true if saved to db, false otherwise
      */
-    internal func saveUser(user: User) -> Bool {
+    func saveUser(user: User) -> Bool {
         print("\(#function)")
 
         self.cleanUsers()
