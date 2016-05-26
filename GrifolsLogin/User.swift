@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import ObjectMapper
 
-class User: Object, Mappable {
+public class User: Object, Mappable {
     
     dynamic var id: String = NSUUID().UUIDString
     dynamic var authenticated: Bool = false
@@ -18,16 +18,16 @@ class User: Object, Mappable {
     dynamic var emailAddress: String?
     dynamic var userName: String?
 
-    override static func primaryKey() -> String? {
+    override public static func primaryKey() -> String? {
         return "id"
     }
     
     //MARK: Mappable
-    required convenience init?(_ map: Map) {
+    required convenience public init?(_ map: Map) {
         self.init()
     }
     
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         authenticated   <- map["authenticated"]
         userId          <- map["userId"]
         emailAddress    <- map["emailAddress"]

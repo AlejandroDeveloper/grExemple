@@ -21,13 +21,13 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QfZ-jv-vNU">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="GRIFOLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sk-Br-3vv">
-                            <rect key="frame" x="59" y="52" width="483" height="110"/>
-                            <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="109"/>
-                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                        <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MFX-KE-gJi">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glogo" translatesAutoresizingMaskIntoConstraints="NO" id="4Yi-2c-DMo">
+                            <rect key="frame" x="65" y="43" width="471" height="128"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="128" id="aSh-Zn-0BL"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MFX-KE-gJi">
                             <rect key="frame" x="177" y="207" width="246" height="185"/>
                             <subviews>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="yzj-r4-o9U">
@@ -88,7 +88,7 @@
                                 </mask>
                             </variation>
                         </view>
-                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiI-xa-W6j">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GiI-xa-W6j">
                             <rect key="frame" x="177" y="427" width="246" height="51"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="246" id="2md-hh-Ghb"/>
@@ -103,14 +103,14 @@
                     </subviews>
                     <color key="backgroundColor" red="0.031372549020000001" green="0.23137254900000001" blue="0.4549019608" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstItem="MFX-KE-gJi" firstAttribute="top" secondItem="8sk-Br-3vv" secondAttribute="bottom" constant="45" id="3zH-Lb-v2N"/>
                         <constraint firstItem="GiI-xa-W6j" firstAttribute="top" secondItem="MFX-KE-gJi" secondAttribute="bottom" constant="35" id="628-vv-fWD"/>
                         <constraint firstAttribute="trailingMargin" secondItem="MFX-KE-gJi" secondAttribute="trailing" constant="169" id="EtR-lr-jnz"/>
-                        <constraint firstAttribute="trailingMargin" secondItem="8sk-Br-3vv" secondAttribute="trailing" constant="50" id="UTz-9M-RDz"/>
+                        <constraint firstItem="4Yi-2c-DMo" firstAttribute="leading" secondItem="QfZ-jv-vNU" secondAttribute="leading" constant="65" id="Xll-Xh-VXK"/>
                         <constraint firstItem="GiI-xa-W6j" firstAttribute="centerX" secondItem="QfZ-jv-vNU" secondAttribute="centerX" id="ht8-Es-CYJ"/>
-                        <constraint firstItem="8sk-Br-3vv" firstAttribute="top" secondItem="QfZ-jv-vNU" secondAttribute="top" constant="52" id="njF-vl-GDe"/>
-                        <constraint firstItem="8sk-Br-3vv" firstAttribute="leading" secondItem="QfZ-jv-vNU" secondAttribute="leadingMargin" constant="51" id="vQl-Xc-QZc"/>
+                        <constraint firstAttribute="trailing" secondItem="4Yi-2c-DMo" secondAttribute="trailing" constant="64" id="myR-hB-Lvi"/>
+                        <constraint firstItem="4Yi-2c-DMo" firstAttribute="top" secondItem="QfZ-jv-vNU" secondAttribute="top" constant="43" id="uaL-NC-glv"/>
                         <constraint firstItem="MFX-KE-gJi" firstAttribute="leading" secondItem="QfZ-jv-vNU" secondAttribute="leadingMargin" constant="169" id="yg9-pu-c4D"/>
+                        <constraint firstItem="MFX-KE-gJi" firstAttribute="top" secondItem="4Yi-2c-DMo" secondAttribute="bottom" constant="36" id="yqB-JZ-8y0"/>
                     </constraints>
                 </view>
             </subviews>
@@ -124,6 +124,7 @@
         </view>
     </objects>
     <resources>
+        <image name="glogo" width="846" height="254"/>
         <image name="password" width="50" height="50"/>
         <image name="user" width="50" height="50"/>
     </resources>
