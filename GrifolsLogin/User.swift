@@ -10,7 +10,7 @@ import Foundation
 import RealmSwift
 import ObjectMapper
 
-public class User: Object, Mappable {
+@IBDesignable public class User: Object, Mappable {
     
     dynamic var id: String = NSUUID().UUIDString
     dynamic var authenticated: Bool = false
