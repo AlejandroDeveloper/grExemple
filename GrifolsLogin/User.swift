@@ -14,7 +14,7 @@ import ObjectMapper
     
     dynamic var id: String = NSUUID().UUIDString
     dynamic var authenticated: Bool = false
-    dynamic var userId: Int = -1
+    dynamic var userId: Int = -12
     dynamic var emailAddress: String?
     dynamic var userName: String?
 
