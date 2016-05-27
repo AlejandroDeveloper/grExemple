@@ -17,8 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        let realm = RLMRealm.defaultRealm()
+        setDefaultRealmForUser("isbt")
         return true
+    }
+    
+    func setDefaultRealmForUser(username: String) {
+        var config = Realm.Configuration()
+        
+        // Use the default directory, but replace the filename with the username
+        config.fileURL = config.fileURL!.URLByDeletingLastPathComponent?
+            .URLByAppendingPathComponent("\(username).realm")
+        
+        // Set this as the configuration used for the default Realm
+        Realm.Configuration.defaultConfiguration = config
     }
 
     func applicationWillResignActive(application: UIApplication) {
