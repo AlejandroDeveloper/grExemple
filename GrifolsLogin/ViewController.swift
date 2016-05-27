@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        loginComponent.configureView()
+        loginComponent.configureViews()
     }
 
     override func didReceiveMemoryWarning() {

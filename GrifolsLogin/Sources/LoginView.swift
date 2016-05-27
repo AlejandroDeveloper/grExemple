@@ -19,7 +19,6 @@ import RealmSwift
         print("Login component")
         super.awakeFromNib()
         xibSetup()
-        print("1:\(Realm.Configuration.defaultConfiguration.fileURL!)")
         alejandro()
     }
     
@@ -45,11 +44,14 @@ import RealmSwift
         return view
     }
 
-    public func alejandro() {
-        print("Esta es la funcion publica alejandro: \(UserController.sharedInstance.loggedUser())")
+    public func alejandro() -> String{
+        let user = UserController.sharedInstance.loggedUser()
+        let username = user?.userName
+        print("Username: \(username)")
+        return username!
     }
     
-    public func configureView() {
+    public func configureViews() {
         let borderUser = CALayer()
         let borderPass = CALayer()
         let width = CGFloat(1.0)
