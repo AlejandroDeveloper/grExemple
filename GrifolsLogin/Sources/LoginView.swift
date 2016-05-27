@@ -46,9 +46,10 @@ import RealmSwift
 
     public func alejandro() -> String{
         let user = UserController.sharedInstance.loggedUser()
-        let username = user?.userName
-        print("Username: \(username)")
-        return username!
+        guard let username = user?.userName else {
+            return ""
+        }
+        return username
     }
     
     public func configureViews() {
