@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04B778BB1F3076332F5338DD /* Pods_GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ECC4731FB9E628FDC7B5EF7 /* Pods_GrifolsLoginFramework.framework */; };
+		A93B37451CF8872E009F004E /* Pods_GrifolsLoginFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93B37441CF8872E009F004E /* Pods_GrifolsLoginFramework.framework */; };
 		A96DF0301CF358E000E73D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96DF02F1CF358E000E73D9E /* AppDelegate.swift */; };
 		A96DF0351CF358E000E73D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0331CF358E000E73D9E /* Main.storyboard */; };
 		A96DF0371CF358E000E73D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A96DF0361CF358E000E73D9E /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		79636771BCB3A4CD32981782 /* Pods_GrifolsLoginFrameworkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrifolsLoginFrameworkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECC4731FB9E628FDC7B5EF7 /* Pods_GrifolsLoginFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrifolsLoginFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F5351ACA4D90502B302C0BB /* Pods_GrifolsLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrifolsLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93B37441CF8872E009F004E /* Pods_GrifolsLoginFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_GrifolsLoginFramework.framework; path = "../../Library/Developer/Xcode/DerivedData/GrifolsLogin-gehiaseuvtsqiucngyoemwnmvrlx/Build/Products/Debug-iphonesimulator/Pods_GrifolsLoginFramework.framework"; sourceTree = "<group>"; };
 		A96DF02C1CF358E000E73D9E /* GrifolsLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrifolsLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96DF02F1CF358E000E73D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A96DF0341CF358E000E73D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93B37451CF8872E009F004E /* Pods_GrifolsLoginFramework.framework in Frameworks */,
 				E6CA7C76525AF33767650F52 /* Pods_GrifolsLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,6 +157,7 @@
 		5DBA3EC9033D5BCE9ECD56F8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A93B37441CF8872E009F004E /* Pods_GrifolsLoginFramework.framework */,
 				8F5351ACA4D90502B302C0BB /* Pods_GrifolsLogin.framework */,
 				7ECC4731FB9E628FDC7B5EF7 /* Pods_GrifolsLoginFramework.framework */,
 				79636771BCB3A4CD32981782 /* Pods_GrifolsLoginFrameworkTests.framework */,
