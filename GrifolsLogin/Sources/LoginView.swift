@@ -13,6 +13,7 @@ import UIKit
     @IBOutlet weak var txtUser: UITextField!
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var btnLogin: UIButton!
+    @IBInspectable public var userLogin : User!
     
     
     public override func awakeFromNib() {
@@ -81,7 +82,9 @@ import UIKit
     
     @IBAction func sendLogin(sender: UIButton) {
         LoginService.sharedInstance.signInWithUser(user: txtUser.text!, password: txtPassword.text!, completion: { () in
-                print("Se ha completado:\(UserController.sharedInstance.loggedUser())")
+                print("Se ha completado")
+            self.userLogin = UserController.sharedInstance.loggedUser()
+                //UserController.sharedInstance.loggedUser()
             }) { (codeError, descriptionError) in
                 print(codeError,descriptionError)
         }

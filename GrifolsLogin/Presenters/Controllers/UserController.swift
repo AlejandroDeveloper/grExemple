@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class UserController {
+class UserController {
     
     // Singleton instance
     static let sharedInstance = UserController()
