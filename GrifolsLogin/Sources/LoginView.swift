@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 @IBDesignable public class LoginView: UIView {
 
@@ -18,6 +19,9 @@ import UIKit
         print("Login component")
         super.awakeFromNib()
         xibSetup()
+        print("1:\(Realm.Configuration.defaultConfiguration.fileURL!)")
+        setDefaultRealmForUser()
+        print("2:\(Realm.Configuration.defaultConfiguration.fileURL!)")
     }
     
     var view: UIView!
@@ -40,6 +44,17 @@ import UIKit
         let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
         
         return view
+    }
+    
+    public func setDefaultRealmForUser() {
+        var config = Realm.Configuration()
+        
+        // Use the default directory, but replace the filename with the username
+        config.fileURL = config.fileURL!.URLByDeletingLastPathComponent?
+            .URLByAppendingPathComponent("isbt.realm")
+        
+        // Set this as the configuration used for the default Realm
+        Realm.Configuration.defaultConfiguration = config
     }
 
     public func alejandro() {
